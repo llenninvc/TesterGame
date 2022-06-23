@@ -1,0 +1,100 @@
+/*
+<!-- Autor: Luis Lennin Villarreal Castro
+Fecha creación: 20/04/2022
+Fecha actualización: 21/06/2022
+Descripción: estilo web para SobreElCreador.html -->
+*/
+/* efectos para imagenes */
+img{
+  
+  width: 80px;
+   height: 80px;
+  border-radius: 100%;
+  margin:auto;
+  display:block;
+
+}
+/* efectos para div box*/
+#box{
+  margin-left:10%;
+  margin-right:10%; 
+  margin-right:auto;
+    justify-content:center;
+  display:inline-block;
+}
+/* efectos para caja*/
+#caja{
+  border:2px solid black;
+  background:#fff  url("https://i.pinimg.com/564x/d0/d4/f0/d0d4f0ba7e7a6e33b2087cf3bdb9f0de.jpg");
+  float: left;
+  width:150px;
+  padding:25px;
+  margin: 10px;
+  text-align: center;
+  margin:auto;
+  display:block;
+}
+/* efectos para a */
+a{   
+  border:2px solid #b1f2da;
+   padding: 8px;
+  margin-bottom: 7px;
+  background-color: #000;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color: #dc2369;
+}
+/* efectos para body*/
+body{
+  font-family: 'Poppins', sans-serif;
+ 
+  /*background: #fff opacity:0.9; */
+}
+
+body {
+     background: #fff url("https://i.pinimg.com/564x/1b/c4/ce/1bc4ce07d0a40e61e4b15a83463c14a2.jpg")
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    background: #fff url("https://i.pinimg.com/564x/1b/30/e1/1b30e14ad125f89407c27afec25521bb.jpg")
+  }
+}
+
+/* efectos para h1 */
+h1.texto{
+   background:#fff  url("https://64.media.tumblr.com/e7bcecfd32aa425fa8279027ec864ddf/tumblr_oqiig2ePDa1rhzsiwo1_1280.jpg");
+  padding: 20px;
+  text-align: center;
+  color:#DC2369;
+}
+
+
+
+
+
+/* efectos para parrafos */
+p.parrafo{
+  border:2px solid black;
+  background:#000;
+  background-size: auto;
+  float: left;
+  width: auto ;
+  padding:5%;
+  margin: 5px;
+  text-align: center;
+  text-align: justify;
+  color:#b1f2da;
+}
+/* efectos para ser resposiva la página*/
+@media screen and (min-width: 600px) {
+ p.parrafo{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.parrafo {
+    font-size: 10px;
+  }
+}
+

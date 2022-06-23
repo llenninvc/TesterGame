@@ -1,0 +1,16 @@
+/*
+<!-- Autor: Luis Lennin Villarreal Castro
+Fecha creación: 20/04/2022
+Fecha actualización: 21/06/2022
+Descripción: estilo web para SobreElCreador.html -->
+*/
+/* efectos para body de los comentarios*/
+body{
+  margin: 0;
+}
+/* efectos para los paneles */
+#panel {
+  width: 100%;
+	height: 100vh;
+  background-color: #000;
+}

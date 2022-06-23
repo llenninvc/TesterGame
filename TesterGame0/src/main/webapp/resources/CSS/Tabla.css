@@ -1,0 +1,26 @@
+/*
+<!-- Autor: Luis Lennin Villarreal Castro
+Fecha creación: 20/04/2022
+Fecha actualización: 21/06/2022
+Descripción: estilo pra la tabla  -->
+*/
+/* efectos para la etiqueta body*/
+	body{
+	 background-color: #000000; 
+   padding: 0px;
+   margin: 0px;
+   
+ }
+/* efectos para la etiqueta de gradientes */
+#gradient
+{
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+
+

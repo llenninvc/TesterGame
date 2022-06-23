@@ -1,0 +1,69 @@
+/*
+<!-- Autor: Luis Lennin Villarreal Castro
+Fecha creación: 20/04/2022
+Fecha actualización: 21/06/2022
+Descripción: estilo la pagina principal -->
+*/
+/* efectos para la etiqueta h3*/
+h3{
+    color: white;
+}
+/* efectos para la etiqueta div*/
+div{
+    color: white;
+}
+
+
+/* efectos para la etiqueta body */
+body {
+
+    background:   rgba(0, 0, 0, 0.7) url("https://www.wallpapertip.com/wmimgs/34-344768_377757-title-video-game-minecraft-forest-wallpaper-minecraft.jpg");
+   height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-blend-mode: darken;
+}
+/* efectos para la etiqueta footer*/
+footer {
+  
+background: #fff url("https://p4.wallpaperbetter.com/wallpaper/199/245/79/nier-automata-2b-nier-automata-9s-nier-automata-sea-ruins-hd-wallpaper-preview.jpg");
+color: #fff;
+}
+
+
+
+
+/* efectos para la etiqueta ul*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #121212;
+}
+/* efectos para la etiqueta li */
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+/* efectos para la etiqueta last child*/
+li:last-child {
+  border-right: none;
+}
+/* efectos para la etiqueta li a*/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* efectos para la etiqueta li a hover not*/
+li a:hover:not(.active) {
+  background-color: rgb(197, 255, 140);
+}
+/* efectos para la etiqueta active */
+.active {
+  background-color: #04AA6D;
+}
